@@ -1,0 +1,83 @@
+{
+    "pages": [{
+            "path": "pages/home/home",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        },
+        {
+            "path": "pages/horizontal/horizontal",
+            "style": {
+                "navigationBarTitleText": "横屏"
+            }
+        },
+        {
+            "path": "pages/video/video",
+            "style": {
+                "navigationBarTitleText": "精美视频"
+            }
+        },
+        {
+            "path": "pages/search/search",
+            "style": {
+                "navigationBarTitleText": "搜索"
+            }
+        },
+        {
+            "path": "pages/mine/mine",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        },
+        {
+            "path": "pages/album/index",
+            "style": {
+                "navigationBarTitleText": "专辑详情"
+            }
+        }
+    ],
+    "tabBar": {
+        "color": "#8a8a8a",
+        "selectedColor": "#d81e06",
+        "backgroundColor": "#fff",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/home/home",
+                "iconPath": "static/icons/home.png",
+                "selectedIconPath": "static/icons/home_active.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/horizontal/horizontal",
+                "iconPath": "static/icons/horizontal.png",
+                "selectedIconPath": "static/icons/horizontal_active.png",
+                "text": "横屏"
+            },
+            {
+                "pagePath": "pages/video/video",
+                "iconPath": "static/icons/video.png",
+                "selectedIconPath": "static/icons/video_active.png",
+                "text": "精美视频"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "iconPath": "static/icons/search.png",
+                "selectedIconPath": "static/icons/search_active.png",
+                "text": "搜索"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "iconPath": "static/icons/mine.png",
+                "selectedIconPath": "static/icons/mine_active.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#000",
+        "backgroundColor": "#F8F8F8"
+    }
+}
